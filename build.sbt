@@ -1,7 +1,9 @@
-name := "ScalaMod1"
+organization := "com.typesafe.akka.samples"
+name := "akka-sample-main-scala"
 
-version := "0.1"
+scalaVersion := "2.12.8"
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.5.24"
+)
 
-scalaVersion := "2.13.1"
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.25"
-libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
+licenses := Seq(("CC0", url("http://creativecommons.org/publicdomain/zero/1.0")))

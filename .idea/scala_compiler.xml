@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="ScalaMod1,scalamod1" />
+    <profile name="sbt 1" modules="My Project,ScalaMod1,akka-sample-main-scala,scalamod1" />
   </component>
 </project>
